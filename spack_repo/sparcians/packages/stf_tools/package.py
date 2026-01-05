@@ -39,4 +39,3 @@ class StfTools(RapidJSONSparciansPackage):
 
     def install(self, spec, prefix):
         super().install(spec, prefix)
-        install_tree("mavis/json", prefix.share.join("stf_tools/mavis/json"))
