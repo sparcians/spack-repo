@@ -12,6 +12,8 @@ class Sparta(RapidJSONSparciansPackage):
 
     version("develop")
 
+    version("2.2.1", tag="map_v2.2.1", submodules=True)
+    version("2.2.0", tag="map_v2.2.0", submodules=True)
     version("2.1.20", tag="map_v2.1.20", submodules=True)
     version("2.1.19", tag="map_v2.1.19", submodules=True)
     version("2.1.18", tag="map_v2.1.18", submodules=True)
