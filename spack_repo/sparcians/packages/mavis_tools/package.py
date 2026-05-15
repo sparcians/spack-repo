@@ -11,7 +11,7 @@ class MavisTools(SparciansPackage):
     license("Apache-2.0", checked_by="bdutro")
 
     version("develop", submodules=True)
-    version("1.0", tag="v1.0", submodules=True)
+    version("1.0", tag="1.0", submodules=True)
 
     variant("build_type", default="Release", description="CMake build type", values=("Release", "FastDebug", "Debug", "Profile"))
 
